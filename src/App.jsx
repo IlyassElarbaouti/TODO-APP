@@ -5,7 +5,7 @@ import TodoList from './tasks/components/TodoList.jsx';
 
 const App = () => (
     <Provider store={store}>
-      <TodoList />
+      <TodoList className='container'/>
     </Provider>
   );
 

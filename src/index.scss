@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 32px;
-  background-color: coral;
+  border: 2px solid orange;
   border-radius: 8px;
   padding: 8px;
   max-width: 600px;
@@ -101,3 +101,4 @@ body {
     flex: 1;
   }
 }
+
