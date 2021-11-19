@@ -1,4 +1,6 @@
 node_modules
+.eslintrc.js
+.eslintignore
 .idea
 .VS_Code
 package-lock.json
