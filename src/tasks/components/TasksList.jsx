@@ -24,7 +24,6 @@ class TasksList extends React.Component {
               onDelete={this.props.deleteTask}
             />
 
-            // <Task id={task.id} text={task.text} done={task.done} />
           ))}
         </ul>
       </main>
@@ -47,10 +46,8 @@ const mapDispatch = {
   createTask: tasksAction.createTask,
 };
 
-const mapState = state => {
-  return {
+const mapState = state => ({
     tasks: sortedTasksListSelector(state),
-  };
-};
+  });
 
 export default connect(mapState, mapDispatch)(TasksList);

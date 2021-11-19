@@ -39,7 +39,3 @@ CreateTaskInput.propTypes = {
 };
 
 export default CreateTaskInput;
-
-// 1.take text from input
-// 2. create task with this text
-// 3.add new task to the list
